@@ -32,7 +32,7 @@ rend3-egui = { path = "../rend3/rend3-egui" }
 egui-winit = "0.22.0"
 egui_extras = "0.22.0"
 ron = "0.8.0"
-sphere_terrain = { path = "../sphere_terrain" }
+sphere_terrain = { git = "https://github.com/OptimisticPeach/sphere_terrain" }
 bitflags = "2.2.1"
 
 [features]
