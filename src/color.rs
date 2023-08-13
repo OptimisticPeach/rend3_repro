@@ -1,0 +1,81 @@
+use glam::Vec3;
+
+/// <div style="background-color:rgb(94%, 97%, 100%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const ALICE_BLUE: Vec3 = rgb(0.94, 0.97, 1.0);
+/// <div style="background-color:rgb(98%, 92%, 84%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const ANTIQUE_WHITE: Vec3 = rgb(0.98, 0.92, 0.84);
+/// <div style="background-color:rgb(49%, 100%, 83%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const AQUAMARINE: Vec3 = rgb(0.49, 1.0, 0.83);
+/// <div style="background-color:rgb(94%, 100%, 100%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const AZURE: Vec3 = rgb(0.94, 1.0, 1.0);
+/// <div style="background-color:rgb(96%, 96%, 86%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const BEIGE: Vec3 = rgb(0.96, 0.96, 0.86);
+/// <div style="background-color:rgb(100%, 89%, 77%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const BISQUE: Vec3 = rgb(1.0, 0.89, 0.77);
+/// <div style="background-color:rgb(0%, 0%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const BLACK: Vec3 = rgb(0.0, 0.0, 0.0);
+/// <div style="background-color:rgb(0%, 0%, 100%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const BLUE: Vec3 = rgb(0.0, 0.0, 1.0);
+/// <div style="background-color:rgb(86%, 8%, 24%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const CRIMSON: Vec3 = rgb(0.86, 0.08, 0.24);
+/// <div style="background-color:rgb(0%, 100%, 100%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const CYAN: Vec3 = rgb(0.0, 1.0, 1.0);
+/// <div style="background-color:rgb(25%, 25%, 25%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const DARK_GRAY: Vec3 = rgb(0.25, 0.25, 0.25);
+/// <div style="background-color:rgb(0%, 50%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const DARK_GREEN: Vec3 = rgb(0.0, 0.5, 0.0);
+/// <div style="background-color:rgb(100%, 0%, 100%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const FUCHSIA: Vec3 = rgb(1.0, 0.0, 1.0);
+/// <div style="background-color:rgb(100%, 84%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const GOLD: Vec3 = rgb(1.0, 0.84, 0.0);
+/// <div style="background-color:rgb(50%, 50%, 50%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const GRAY: Vec3 = rgb(0.5, 0.5, 0.5);
+/// <div style="background-color:rgb(0%, 100%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const GREEN: Vec3 = rgb(0.0, 1.0, 0.0);
+/// <div style="background-color:rgb(28%, 0%, 51%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const INDIGO: Vec3 = rgb(0.29, 0.0, 0.51);
+/// <div style="background-color:rgb(20%, 80%, 20%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const LIME_GREEN: Vec3 = rgb(0.2, 0.8, 0.2);
+/// <div style="background-color:rgb(50%, 0%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const MAROON: Vec3 = rgb(0.5, 0.0, 0.0);
+/// <div style="background-color:rgb(10%, 10%, 44%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const MIDNIGHT_BLUE: Vec3 = rgb(0.1, 0.1, 0.44);
+/// <div style="background-color:rgb(0%, 0%, 50%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const NAVY: Vec3 = rgb(0.0, 0.0, 0.5);
+/// <div style="background-color:rgb(50%, 50%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const OLIVE: Vec3 = rgb(0.5, 0.5, 0.0);
+/// <div style="background-color:rgb(100%, 65%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const ORANGE: Vec3 = rgb(1.0, 0.65, 0.0);
+/// <div style="background-color:rgb(100%, 27%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const ORANGE_RED: Vec3 = rgb(1.0, 0.27, 0.0);
+/// <div style="background-color:rgb(100%, 8%, 57%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const PINK: Vec3 = rgb(1.0, 0.08, 0.58);
+/// <div style="background-color:rgb(50%, 0%, 50%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const PURPLE: Vec3 = rgb(0.5, 0.0, 0.5);
+/// <div style="background-color:rgb(100%, 0%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const RED: Vec3 = rgb(1.0, 0.0, 0.0);
+/// <div style="background-color:rgb(98%, 50%, 45%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const SALMON: Vec3 = rgb(0.98, 0.5, 0.45);
+/// <div style="background-color:rgb(18%, 55%, 34%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const SEA_GREEN: Vec3 = rgb(0.18, 0.55, 0.34);
+/// <div style="background-color:rgb(75%, 75%, 75%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const SILVER: Vec3 = rgb(0.75, 0.75, 0.75);
+/// <div style="background-color:rgb(0%, 50%, 50%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const TEAL: Vec3 = rgb(0.0, 0.5, 0.5);
+/// <div style="background-color:rgb(100%, 39%, 28%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const TOMATO: Vec3 = rgb(1.0, 0.39, 0.28);
+/// <div style="background-color:rgb(25%, 88%, 82%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const TURQUOISE: Vec3 = rgb(0.25, 0.88, 0.82);
+/// <div style="background-color:rgb(93%, 51%, 93%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const VIOLET: Vec3 = rgb(0.93, 0.51, 0.93);
+/// <div style="background-color:rgb(100%, 100%, 100%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const WHITE: Vec3 = rgb(1.0, 1.0, 1.0);
+/// <div style="background-color:rgb(100%, 100%, 0%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const YELLOW: Vec3 = rgb(1.0, 1.0, 0.0);
+/// <div style="background-color:rgb(60%, 80%, 20%); width: 10px; padding: 10px; border: 1px solid;"></div>
+pub const YELLOW_GREEN: Vec3 = rgb(0.6, 0.8, 0.2);
+
+#[inline]
+pub const fn rgb(r: f32, g: f32, b: f32) -> Vec3 {
+    Vec3::new(r, g, b)
+}

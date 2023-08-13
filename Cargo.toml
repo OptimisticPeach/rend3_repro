@@ -1,0 +1,39 @@
+[package]
+name = "sailer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winit = "0.28.2"
+env_logger = "0.10.0"
+pollster = "0.3.0"
+glam = "0.24.0"
+rand = "0.8.5"
+hexasphere = "=9.1.0"
+#hecs = "0.9.1"
+rend3 = { path = "../rend3/rend3" }
+rend3-routine = { path = "../rend3/rend3-routine" }
+rend3-types = { path = "../rend3/rend3-types" }
+buttery = { path = "../buttery" }
+bytemuck = "1"
+rust-embed = "6.6.0"
+tinyvec = "1.6.0"
+
+clatter = { git = "https://github.com/Ralith/clatter", features = ["rand"] }
+
+serde = { version = "1", features = ["derive"] }
+wgpu = "0.16.0"
+encase = { version = "0.6.1", features = ["glam"] }
+
+egui = "0.22.0"
+rend3-egui = { path = "../rend3/rend3-egui" }
+egui-winit = "0.22.0"
+egui_extras = "0.22.0"
+ron = "0.8.0"
+sphere_terrain = { path = "../sphere_terrain" }
+bitflags = "2.2.1"
+
+[features]
+ij = []
